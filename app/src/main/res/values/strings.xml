@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AuthServerRenew</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <string name="signed_out">Signed out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signed_in">Signed in</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="record_video">Record Video</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="btnUploadYoutube">Upload to Youtube</string>
+    <string name="android_image_upload">Android Image Upload</string>
+</resources>
