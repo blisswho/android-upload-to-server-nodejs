@@ -100,7 +100,6 @@ public class UploadActivity extends Activity {
             @Override
             public void onClick(View view) {
                 uploadMultipart(getApplicationContext());
-                Log.i("tag", "why the fuck isnt this layout changing?");
                 btnUploadYoutube.setVisibility(View.VISIBLE);
                 btnUpload.setVisibility(View.GONE);
             }
@@ -237,14 +236,6 @@ public class UploadActivity extends Activity {
                 params.put("file_name", fileName);
                 return params;
             }
-
-//            @Override
-//            public Map<String, String> getHeaders() throws AuthFailureError {
-//                HashMap<String, String> params = new HashMap<String, String>();
-//                Log.i("tag", apiKey);
-//                params.put("authorization", apiKey);
-//                return params;
-//            }
         };
 
         AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
